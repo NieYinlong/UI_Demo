@@ -41,6 +41,7 @@
 		224B3F8020C52D0600C95147 /* ItemLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 224B3F7F20C52D0600C95147 /* ItemLabel.m */; };
 		224B3F8320C52DF900C95147 /* WeightItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 224B3F8220C52DF900C95147 /* WeightItemView.m */; };
 		2282F39B2425E0FA008A1614 /* SlideDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2282F39A2425E0FA008A1614 /* SlideDemoViewController.m */; };
+		2282F39F2425EF2B008A1614 /* 演示图.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2282F39E2425EF2B008A1614 /* 演示图.gif */; };
 		22F723E920C664EB005BE65E /* UISrolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F723E820C664EB005BE65E /* UISrolViewController.m */; };
 		22FB7B09214F7DF8000DB30B /* HalfCircleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FB7B08214F7DF8000DB30B /* HalfCircleVC.m */; };
 		22FB7B0F214F81DF000DB30B /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FB7B0E214F81DF000DB30B /* CircleView.m */; };
@@ -136,6 +137,7 @@
 		224B3F8220C52DF900C95147 /* WeightItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeightItemView.m; sourceTree = "<group>"; };
 		2282F3992425E0FA008A1614 /* SlideDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlideDemoViewController.h; sourceTree = "<group>"; };
 		2282F39A2425E0FA008A1614 /* SlideDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideDemoViewController.m; sourceTree = "<group>"; };
+		2282F39E2425EF2B008A1614 /* 演示图.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "演示图.gif"; sourceTree = "<group>"; };
 		22F723E720C664EB005BE65E /* UISrolViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UISrolViewController.h; sourceTree = "<group>"; };
 		22F723E820C664EB005BE65E /* UISrolViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UISrolViewController.m; sourceTree = "<group>"; };
 		22FB7B07214F7DF8000DB30B /* HalfCircleVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HalfCircleVC.h; sourceTree = "<group>"; };
@@ -307,6 +309,7 @@
 		224B3F3D20C525F700C95147 = {
 			isa = PBXGroup;
 			children = (
+				2282F39E2425EF2B008A1614 /* 演示图.gif */,
 				224B3F4820C525F700C95147 /* UI_Demo */,
 				224B3F6120C525F700C95147 /* UI_DemoTests */,
 				224B3F6C20C525F700C95147 /* UI_DemoUITests */,
@@ -524,6 +527,7 @@
 				224B3F5620C525F700C95147 /* LaunchScreen.storyboard in Resources */,
 				224B3F5320C525F700C95147 /* Assets.xcassets in Resources */,
 				224B3F5120C525F700C95147 /* Main.storyboard in Resources */,
+				2282F39F2425EF2B008A1614 /* 演示图.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
