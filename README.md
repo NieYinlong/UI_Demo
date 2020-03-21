@@ -15,4 +15,4 @@ UICollectionView横线滚动自适应
 ```
 
 # 演示git
-![在这里插入图片描述](https://github.com/NieYinlong/UI_Demo/blob/master/%E6%BC%94%E7%A4%BA%E5%9B%BE.gif)
+![演示图片](https://github.com/NieYinlong/UI_Demo/blob/master/%E6%BC%94%E7%A4%BA%E5%9B%BE.gif)
