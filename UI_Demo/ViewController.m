@@ -242,7 +242,7 @@
                    @"半圆环形",
                    @"底部弹出",
                    @"UICollectionView横线滚动自适应",
-        @"UIView随手势滑动"];
+        @"UIView随手势滑动(仿QQ播放界面)"];
     }
     return _menus;
 }
@@ -268,7 +268,7 @@
         cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }
     cell.textLabel.text = self.menus[indexPath.row];
-    if ([self.menus[indexPath.row] isEqualToString:@"UIView随手势滑动"]) {
+    if ([self.menus[indexPath.row] isEqualToString:@"UIView随手势滑动(仿QQ播放界面)"]) {
         cell.detailTextLabel.text = @"仿QQ音乐播放界面弹出效果";
     }
     return cell;
@@ -316,7 +316,7 @@
     else if ([cellStr isEqualToString:@"UICollectionView横线滚动自适应"]) {
         superVC = [UICollectionViewVC new];
     }
-    else if ([cellStr isEqualToString:@"UIView随手势滑动"]) {
+    else if ([cellStr isEqualToString:@"UIView随手势滑动(仿QQ播放界面)"]) {
         superVC = [SlideDemoViewController new];
     }
     if (superVC) {
